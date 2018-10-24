@@ -153,8 +153,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_message" = "Edit message";
 "lng_edit_message_text" = "New message text...";
 "lng_deleted" = "Deleted Account";
-"lng_deleted_message" = "Deleted message";
-"lng_pinned_message" = "Pinned message";
+"lng_deleted_message" = "🗑";
+"lng_pinned_message" = "📌";
 "lng_pinned_unpin_sure" = "Would you like to unpin this message?";
 "lng_pinned_pin_sure" = "Would you like to pin this message?";
 "lng_pinned_pin" = "Pin";
@@ -231,7 +231,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signup_firstname" = "First Name";
 "lng_signup_lastname" = "Last Name";
 
-"lng_dlg_filter" = "Search";
+"lng_dlg_filter" = "🔍";
 "lng_dlg_new_group_name" = "Group name";
 "lng_dlg_new_channel_name" = "Channel name";
 "lng_no_contacts" = "You have no contacts";
@@ -842,7 +842,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_you_joined" = "You joined this channel";
 "lng_action_add_you_group" = "{from} added you to this group";
 "lng_action_kick_user" = "{from} removed {user}";
-"lng_action_user_left" = "{from} left the group";
+"lng_action_user_left" = "❌ {from} ❌";
 "lng_action_user_joined" = "{from} joined the group";
 "lng_action_user_joined_by_link" = "{from} joined the group via invite link";
 "lng_action_user_registered" = "{from} just joined Telegram";
@@ -944,10 +944,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_forwarded_channel_via" = "Forwarded from {channel} via {inline_bot}";
 "lng_forwarded_signed" = "{channel} ({user})";
 "lng_in_reply_to" = "In reply to";
-"lng_edited" = "edited";
+"lng_edited" = "♻️";
 "lng_edited_date" = "Edited: {date}";
-"lng_admin_badge" = "admin";
-"lng_fast_reply" = "Reply";
+"lng_admin_badge" = "★";
+"lng_fast_reply" = "➕";
 "lng_cancel_edit_post_sure" = "Cancel editing?";
 "lng_cancel_edit_post_yes" = "Yes";
 "lng_cancel_edit_post_no" = "No";
@@ -1062,8 +1062,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_will_be_notified" = "Members will be notified when you post";
 "lng_wont_be_notified" = "Members will not be notified when you post";
 "lng_willbe_history" = "Please select a chat to start messaging";
-"lng_from_you" = "You";
-"lng_from_draft" = "Draft";
+"lng_from_you" = "😊";
+"lng_from_draft" = "📝";
 "lng_bot_description" = "What can this bot do?";
 "lng_unblock_button" = "Unblock";
 "lng_channel_mute" = "Mute";
