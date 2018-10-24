@@ -375,6 +375,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_download_path_ask" = "Ask download path for each file";
 "lng_download_path" = "Download path";
+"lng_download_path_dont_ask" = "Don't ask download path for each file";
+"lng_download_path_label" = "Download path:";
 "lng_download_path_temp" = "Temp folder";
 "lng_download_path_default" = "Default folder";
 "lng_download_path_clear" = "Clear all";
@@ -517,8 +519,12 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_sponsor_warning" = "This proxy may display a sponsored channel in your chat list. This doesn't reveal any of your Telegram traffic.";
 
 "lng_settings_blocked_users" = "Blocked users";
+"lng_settings_last_seen_privacy" = "Last seen privacy";
+"lng_settings_calls_privacy" = "Phone calls privacy";
+"lng_settings_groups_invite_privacy" = "Group invite settings";
 "lng_settings_show_sessions" = "Show all sessions";
 "lng_settings_export_data" = "Export Telegram data";
+"lng_settings_self_destruct" = "Account self-destruct settings";
 "lng_settings_destroy_if" = "If away for...";
 "lng_settings_change_phone" = "Change phone number";
 
@@ -558,10 +564,15 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_exceptions" = "Add exceptions";
 
 "lng_edit_privacy_lastseen_title" = "Last seen privacy";
+"lng_edit_privacy_lastseen_description" = "You can choose who can see your last seen time:";
 "lng_edit_privacy_lastseen_header" = "Who can see your last seen time";
 "lng_edit_privacy_lastseen_warning" = "Important: you won't be able to see Last Seen times for people with whom you don't share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).";
 "lng_edit_privacy_lastseen_always_empty" = "Always share with";
+"lng_edit_privacy_lastseen_always#one" = "Always share with {count} user";
+"lng_edit_privacy_lastseen_always#other" = "Always share with {count} users";
 "lng_edit_privacy_lastseen_never_empty" = "Never share with";
+"lng_edit_privacy_lastseen_never#one" = "Never share with {count} user";
+"lng_edit_privacy_lastseen_never#other" = "Never share with {count} users";
 "lng_edit_privacy_exceptions_count#one" = "{count} user";
 "lng_edit_privacy_exceptions_count#other" = "{count} users";
 "lng_edit_privacy_exceptions_add" = "Add users";
@@ -570,17 +581,27 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_lastseen_never_title" = "Never share with";
 
 "lng_edit_privacy_groups_title" = "Group invite settings";
+"lng_edit_privacy_groups_description" = "You can choose who can add you to groups and channels with granular precision:";
 "lng_edit_privacy_groups_header" = "Who can invite you to groups and channels";
 "lng_edit_privacy_groups_always_empty" = "Always allow";
+"lng_edit_privacy_groups_always#one" = "Always allow {count} user";
+"lng_edit_privacy_groups_always#other" = "Always allow {count} users";
 "lng_edit_privacy_groups_never_empty" = "Never allow";
+"lng_edit_privacy_groups_never#one" = "Never allow {count} user";
+"lng_edit_privacy_groups_never#other" = "Never allow {count} users";
 "lng_edit_privacy_groups_exceptions" = "These users will or will not be able to add you to groups and channels regardless of the settings above.";
 "lng_edit_privacy_groups_always_title" = "Always allow";
 "lng_edit_privacy_groups_never_title" = "Never allow";
 
 "lng_edit_privacy_calls_title" = "Voice calls privacy";
+"lng_edit_privacy_calls_description" = "You can restrict who can call you:";
 "lng_edit_privacy_calls_header" = "Who can call you";
 "lng_edit_privacy_calls_always_empty" = "Always allow";
+"lng_edit_privacy_calls_always#one" = "Always allow {count} user";
+"lng_edit_privacy_calls_always#other" = "Always allow {count} users";
 "lng_edit_privacy_calls_never_empty" = "Never allow";
+"lng_edit_privacy_calls_never#one" = "Never allow {count} user";
+"lng_edit_privacy_calls_never#other" = "Never allow {count} users";
 "lng_edit_privacy_calls_exceptions" = "These users will or will not be able to call you regardless of the settings above.";
 "lng_edit_privacy_calls_always_title" = "Always allow";
 "lng_edit_privacy_calls_never_title" = "Never allow";
@@ -969,6 +990,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_audio" = "Voice message";
 
 "lng_media_auto_settings" = "Automatic media download";
+"lng_media_auto_photo" = "Automatic photo download";
+"lng_media_auto_audio" = "Automatic voice message download";
+"lng_media_auto_gif" = "Automatic GIF download";
 "lng_media_auto_title" = "Automatically download";
 "lng_media_photo_title" = "Photos";
 "lng_media_audio_title" = "Voice messages";
