@@ -94,7 +94,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_status_bot_reads_all" = "has access to messages";
 "lng_status_bot_not_reads_all" = "has no access to messages";
 "lng_status_offline" = "last seen a long time ago";
-"lng_status_recently" = "last seen recently";
+"lng_status_recently" = "";
 "lng_status_last_week" = "last seen within a week";
 "lng_status_last_month" = "last seen within a month";
 "lng_status_lastseen_now" = "last seen just now";
@@ -272,7 +272,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_choose_username" = "Choose username";
 "lng_settings_empty_bio" = "None";
 
-"lng_settings_section_notify" = "Notifications";
+"lng_settings_section_notify" = "";
 "lng_settings_desktop_notify" = "Desktop notifications";
 "lng_settings_show_name" = "Show sender's name";
 "lng_settings_show_preview" = "Show message preview";
@@ -654,24 +654,24 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_loading" = "Loading...";
 "lng_profile_photos#one" = "{count} photo";
 "lng_profile_photos#other" = "{count} photos";
-"lng_profile_photos_header" = "Photos";
 "lng_profile_videos#one" = "{count} video";
 "lng_profile_videos#other" = "{count} videos";
-"lng_profile_videos_header" = "Videos";
 "lng_profile_songs#one" = "{count} audio file";
 "lng_profile_songs#other" = "{count} audio files";
-"lng_profile_songs_header" = "Audio files";
 "lng_profile_files#one" = "{count} file";
 "lng_profile_files#other" = "{count} files";
+"lng_profile_photos_header" = "";
+"lng_profile_videos_header" = "";
+"lng_profile_songs_header" = "";
 "lng_profile_files_header" = "Files";
 "lng_profile_audios#one" = "{count} voice message";
 "lng_profile_audios#other" = "{count} voice messages";
 //"lng_profile_rounds#one" = "{count} video message";
 //"lng_profile_rounds#other" = "{count} video messages";
-"lng_profile_audios_header" = "Voice messages";
 "lng_profile_shared_links#one" = "{count} shared link";
 "lng_profile_shared_links#other" = "{count} shared links";
-"lng_profile_shared_links_header" = "Shared links";
+"lng_profile_audios_header" = "";
+"lng_profile_shared_links_header" = "";
 "lng_profile_copy_phone" = "Copy Phone Number";
 "lng_profile_copy_fullname" = "Copy Name";
 "lng_profile_drop_area_title" = "Drop your image here";
@@ -681,16 +681,16 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_profile_info_section" = "Info";
 "lng_info_tab_media" = "Media";
-"lng_info_mobile_label" = "Mobile";
-"lng_info_username_label" = "Username";
-"lng_info_bio_label" = "Bio";
+"lng_info_mobile_label" = "";
+"lng_info_username_label" = "";
+"lng_info_bio_label" = "";
 "lng_info_link_label" = "Link";
-"lng_info_about_label" = "About";
-"lng_info_user_title" = "User Info";
 "lng_info_bot_title" = "Bot Info";
-"lng_info_group_title" = "Group Info";
-"lng_info_channel_title" = "Channel Info";
-"lng_profile_enable_notifications" = "Notifications";
+"lng_info_about_label" = "";
+"lng_info_user_title" = "";
+"lng_info_group_title" = "";
+"lng_info_channel_title" = "";
+"lng_profile_enable_notifications" = "";
 "lng_profile_send_message" = "Send Message";
 "lng_info_add_as_contact" = "Add as contact";
 "lng_profile_shared_media" = "Shared media";
@@ -1055,7 +1055,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cant_do_this" = "Sorry, this action is unavailable.";
 
 "lng_send_button" = "Send";
-"lng_message_ph" = "Write a message...";
+"lng_message_ph" = "";
 "lng_broadcast_ph" = "Broadcast a message...";
 "lng_broadcast_silent_ph" = "Silent broadcast...";
 "lng_record_cancel" = "Release outside this field to cancel";
@@ -1076,8 +1076,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dialogs_text_from_wrapped" = "{from}:";
 "lng_dialogs_text_media" = "{media_part} {caption}";
 "lng_dialogs_text_media_wrapped" = "{media},";
-"lng_dialogs_show_all_chats" = "Show all chats";
-"lng_dialogs_hide_muted_chats" = "Hide muted chats";
+"lng_dialogs_show_all_chats" = "";
+"lng_dialogs_hide_muted_chats" = "";
 
 "lng_open_this_link" = "Open this link?";
 "lng_open_link" = "Open";
@@ -1096,11 +1096,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bot_sure_share_game" = "Share the game with {user}?";
 "lng_bot_sure_share_game_group" = "Share the game with «{group}»?";
 
-"lng_typing" = "typing";
 "lng_user_typing" = "{user} is typing";
 "lng_users_typing" = "{user} and {second_user} are typing";
 "lng_many_typing#one" = "{count} person is typing";
 "lng_many_typing#other" = "{count} people are typing";
+"lng_typing" = "";
 "lng_playing_game" = "playing a game";
 "lng_user_playing_game" = "{user} is playing a game";
 "lng_users_playing_game" = "{user} and {second_user} are playing a game";
